@@ -98,7 +98,7 @@ module.exports = {
     'hyperfull',
     // fun
     // 'hyperpower',
-    'hyper-john',
+    // 'hyper-john',
     // 'hyper-command-gifs',
     // 'hyper-cat',
   ],
