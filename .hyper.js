@@ -25,7 +25,14 @@ module.exports = {
     css: '',
 
     // custom css to embed in the terminal window
-    termCSS: '',
+    termCSS: `
+      * {
+        cursor: default;
+      }
+      x-row span {
+        cursor: text;
+      }
+    `,
 
     // set to `true` if you're using a Linux set up
     // that doesn't shows native menus
