@@ -4,7 +4,7 @@ module.exports = {
     fontSize: 16,
 
     // font family with optional fallbacks
-    fontFamily: '"Monaco for Powerline", Menlo, "DejaVu Sans Mono", Consolas, "Lucida Console", monospace',
+    fontFamily: 'Input Mono',
 
     // terminal cursor background color and opacity (hex, rgb, hsl, hsv, hwb or cmyk)
     cursorColor: 'rgba(248,28,229,0.8)',
@@ -31,6 +31,10 @@ module.exports = {
       }
       x-row span {
         cursor: text;
+      }
+      tab_textInner {
+        font-size: 15px;
+        font-weight: bold;
       }
     `,
 
@@ -75,7 +79,7 @@ module.exports = {
 
     // for setting shell arguments (i.e. for using interactive shellArgs: ['-i'])
     // by default ['--login'] will be used
-    shellArgs: ['--login'],
+    shellArgs: [],
 
     // for environment variables
     env: {},
@@ -102,7 +106,6 @@ module.exports = {
     'hyper-snazzy',
     'hyper-blink',
     'hyperterm-cursor',
-    'hyperfull',
     // fun
     // 'hyperpower',
     // 'hyper-john',

@@ -1,11 +1,14 @@
 # zsh-hyper
 My zsh and hyper config files.
 
+## Demo
+
+![demo zsh](https://raw.githubusercontent.com/minhnvc/zsh-hyper/master/demo.png)
+
+
 ## Instructions
 
 Do the instructions below then copy `.hyper.js` and `.zshrc` to `~/`.
-
-[Recommended powerline font](https://gist.github.com/baopham/1838072).
 
 ### zsh
 
