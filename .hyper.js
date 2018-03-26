@@ -1,5 +1,4 @@
 module.exports = {
-  
   config: {
     // default font size in pixels for all tabs
     fontSize: 16,
